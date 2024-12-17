@@ -22,3 +22,11 @@ Gympass App
 - [] O check-in só pode ser validado até 20 min. após validado;
 - [] O check-in só pode ser validado por adiministradores;
 - [] A academia só pode se cadastrada por adiministradores;
+
+
+## RNF (Requisitos Não Funcionais)
+
+- [] A senha do usuário precisa está criptografado
+- [] Os dados da aplicacão precisam está persistido em um banco postgreSQL;
+- [] Todas as listas de dados precisam está paginadas com 20 itens por página;
+- [] O usuário deve  ser identidicado por um JWT (Json WEB Token);
